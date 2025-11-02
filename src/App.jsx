@@ -1,17 +1,17 @@
-import ButtonTap from "./components/ButtonTap";
-import KeyFrame from "./components/KeyFrame";
-import Simple from "./components/Simple";
-import TextMotion from "./components/TextMotion";
-import TransitionType from "./components/TransitionType";
+import Counter from "./components/Counter";
+import ScrollReveal from "./components/ScrollReveal";
 
 function App() {
   return (
     <>
-      <Simple></Simple>
+      {/* <Simple></Simple>
       <KeyFrame></KeyFrame>
       <ButtonTap></ButtonTap>
       <TextMotion></TextMotion>
       <TransitionType></TransitionType>
+      <Variants></Variants> */}
+      <Counter></Counter>
+      <ScrollReveal></ScrollReveal>
     </>
   );
 }
